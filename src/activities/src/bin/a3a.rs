@@ -10,5 +10,16 @@
 // * Use an if..else block to determine which message to display
 // * Use the println macro to display messages to the terminal
 
-fn main() {}
+
+
+fn main() {
+
+    let x = false;
+    if x== true{
+        println!("true");
+    }else{
+        println!("false");
+    }
+
+}
 

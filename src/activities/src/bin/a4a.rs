@@ -7,5 +7,13 @@
 // * Use a variable set to either true or false
 // * Use a match expression to determine which message to display
 
-fn main() {}
+fn main() {
+
+    let val = false;
+
+    match val {
+        true => println!("it's true"),
+        false => println!("it's false"),
+    }
+}
 
