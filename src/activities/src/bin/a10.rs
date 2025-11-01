@@ -21,7 +21,7 @@ fn print_message(gt_100: bool) {
 
 fn main() {
     let value = 100;
-    let is_gt_100 = value > 100;
-    print_message(is_gt_100);
+    let is_value = value > 100;
+    print_message(is_value);
 }
 
